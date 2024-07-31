@@ -387,3 +387,17 @@ var example = meow
 
 meow.name = "Ella"
 example.name
+
+
+//=====================
+
+extension String{
+    func RemoveWhiteSpace() -> String {
+        return components(separatedBy: .whitespaces).joined()
+    }
+}
+
+let alphabet = "A B C D E F G"
+
+print(alphabet)
+print(alphabet.RemoveWhiteSpace())

@@ -129,7 +129,7 @@ shorthand way of saying this current instance of the object/class I am in
 an object (<3)
 
 you have to initialize the class
-
+subclasses can only get the functionality, ex: for specific button types
 # Inheritance
 you get all the vars, init (constructors), and funcs
 
@@ -144,4 +144,8 @@ value types = copy a data into its own data (reminds me of the new type in c++ i
 ex: if I create a doc and email the doc, and you change it, that is a value type because it is your own copy/version of the doc
 
 
+# Extension
+way to add custom functionality to an existing type/class
+allows customization
 
+ex: can give type UIButton different animations
