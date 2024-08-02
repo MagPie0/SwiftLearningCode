@@ -167,3 +167,17 @@ auto layout helps the app layout be the same on different screen sizes
 superview is the view it is in
 
 Control + drag a component to another to constrain to it
+
+#Storyboard vs Code
+storyboard
+    *visual layout
+    *hides a lot of UI code
+    *can't decifer what the ui code does
+    *difficult to use with teams unless you have multiple
+    *merge conflicts
+    *can get annoying if multiple animations or a busy screen
+
+code
+    *easy to debug
+    *easier to build more complex screens
+    *easier to change screens
