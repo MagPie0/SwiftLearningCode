@@ -149,3 +149,21 @@ way to add custom functionality to an existing type/class
 allows customization
 
 ex: can give type UIButton different animations
+
+
+# UIKit
+a lot of functionality is already built by apple
+UI prefix 
+
+item should have 4 constrants on a storyboard
+
+auto layout helps the app layout be the same on different screen sizes
+    needs:
+        Height
+        Width
+        X cord
+        Y cord
+
+superview is the view it is in
+
+Control + drag a component to another to constrain to it
